@@ -216,3 +216,57 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data
+data/
+data/raw/
+data/processed/
+data/interim/
+data/external/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Models
+models/
+
+# Configs
+configs/__pycache__/
+
+# Logs
+*.log
+
+# Environment
+venv/
+env/
+.venv/
+.env/
+
